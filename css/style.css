@@ -3,6 +3,14 @@ body{font-family:Arial,sans-serif;background:#f5f7fb;color:#222;scroll-behavior:
 .nav-link,.navbar-brand{color:#fff!important}
 .hero{min-height:100vh;background:linear-gradient(135deg,#0f172a,#2563eb)}
 .avatar{font-size:7rem}
+.profile-img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid rgba(255,255,255,0.2);
+    box-shadow:0 15px 40px rgba(0,0,0,0.3);
+}
 .alt{background:#eef3ff}
 .stat{background:#fff;border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .stat span{display:block;font-size:2rem;font-weight:bold;color:#2563eb}
@@ -13,11 +21,4 @@ body{font-family:Arial,sans-serif;background:#f5f7fb;color:#222;scroll-behavior:
 .card:hover{transform:translateY(-8px)}
 .icons i{font-size:2rem;margin:0 12px}
 footer{text-align:center;padding:25px;background:#0f172a;color:#fff}
-.profile-img{
-    width:220px;
-    height:220px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid rgba(255,255,255,0.2);
-    box-shadow:0 15px 40px rgba(0,0,0,0.3);
-}
+
